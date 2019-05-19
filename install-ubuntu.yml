@@ -1,0 +1,10 @@
+---
+
+- hosts: saar_ubuntu
+  become: yes
+  tasks:
+    - name: install vim and zip
+      apt: name={{ item }} state=installed
+      with_items:
+        - vim
+        - zip
