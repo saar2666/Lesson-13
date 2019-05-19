@@ -1,0 +1,4 @@
+---
+- hosts: saar_ubuntu
+  roles:
+    - playbook
