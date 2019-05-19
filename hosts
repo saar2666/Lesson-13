@@ -1,0 +1,2 @@
+[saar_hosts]
+saar_ubuntu  ansible_ssh_host=10.196.93.230
